@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863642969288",
+    "project_id": "quickchatapp-b11ee",
+    "storage_bucket": "quickchatapp-b11ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863642969288:android:dc9b9199aad0363f54f1fd",
+        "android_client_info": {
+          "package_name": "chaudhari.mamta.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863642969288-m8ioqip4rejfjdl5r275rur1do14ukci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz7HwlIvLqGLUXqX_9Dw9I9R0nphFfCGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863642969288-m8ioqip4rejfjdl5r275rur1do14ukci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

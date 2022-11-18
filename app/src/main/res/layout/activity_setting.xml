@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="start"
+    android:orientation="vertical"
+    tools:context=".Activity.SettingActivity">
+
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_done"
+            android:paddingEnd="10dp"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setting_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_person"
+            app:civ_border_color="@color/purple_600"
+            app:civ_border_width="2dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/setting_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="@string/quick_chat_app"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/setting_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="Hey there i'm using this chat app\n wanna try this"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+
+
+</LinearLayout>

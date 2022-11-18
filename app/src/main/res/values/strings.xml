@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="quick_chat_app">Quick Chat</string>
+    <string name="slogan">Chat with your faviorate person and a cup of tea</string>
+</resources>
